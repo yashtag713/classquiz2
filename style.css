@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-image: url('https://www.publicdomainpictures.net/pictures/200000/velka/ocean-background-1461781283Y5r.jpg');
     background-size: cover;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,6 +10,7 @@ body {
     align-items: center;
     height: 100vh;
     color: white;
+    text-shadow: 1px 1px 2px black;
 }
 
 .quiz-container {
@@ -48,8 +50,7 @@ button:disabled {
 }
 
 label {
-    display: inline-block;
-    width: 100%;
+    display: block;
     text-align: left;
-    margin: 5px 0;
+    margin: 10px 0;
 }
