@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.publicdomainpictures.net/pictures/200000/velka/ocean-background-1461781283Y5r.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.quiz-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.quiz-container h1 {
+    margin-bottom: 20px;
+}
+
+.question {
+    display: none;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+label {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin: 5px 0;
+}
